@@ -1,0 +1,27 @@
+{
+    "name": "#RespectForGrimes",
+    "version": "1.0",
+    "description": "Changes all instances of 'Elon Musk' on a page to be `Grimes' boyfriend`",
+    "manifest_version": 2,
+    "permissions": ["storage", "declarativeContent", "activeTab"],
+    "background": {
+    	"scripts": ["background.js"],
+    	"persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+	      "16": "images/icon16.png",
+	      "32": "images/icon32.jpg",
+	      "48": "images/icon48.jpg",
+	      "128": "images/icon128.jpg"
+	    }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.jpg",
+      "48": "images/icon48.jpg",
+      "128": "images/icon128.jpg"
+    }
+    
+}
